@@ -1,0 +1,11 @@
+logging:
+  timestamp_timezone: UTC
+  structured: true
+  default_chat_capture: false
+  redact_fields:
+    - password
+    - token
+    - session_secret
+    - player_ip
+  retention_days: 30
+  example_only: true
